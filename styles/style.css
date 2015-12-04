@@ -1,0 +1,108 @@
+/* mobile styles /* 
+
+/* give the body enough space to fit the menu icon */
+body {
+  padding-right: 3rem;
+  padding-left: 3.5rem; 
+}
+/* header styles */
+header {
+  background-color: white;
+  width: 85%;
+  margin: auto;
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+header img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4rem;
+  padding: .5rem;
+}
+h1 {
+  float: left;
+  color: black;
+  padding: 1rem;
+  font-size: 3rem;
+}
+.fa-bars {
+  background-color: white;
+  color: black;
+  float: right;
+  padding: .5rem;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+/* footer styles */
+footer {
+  clear: both;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+footer p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+#location {
+  padding-bottom: .5rem;
+}
+
+/* nav styles */
+nav {
+  clear: both;
+  background-color: white;
+}
+nav ul {
+  text-align: center;
+}
+nav li {
+  font-size: 2.5rem;
+  padding: 1rem; 0rem;
+  border-bottom: 1px black dotted;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+/* desktop styles for header and nav */
+@media only screen and (min-width: 768px) {
+  .fa-bars {
+    display:none;
+  }
+  header img {
+    position: static;
+    display: inline-block;
+    float: left;
+    width: 5rem;
+  }
+  header h1 {
+    width: 80%;
+  }
+  nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+    margin: auto;
+  }
+  nav li {
+    display: inline;
+    border: none;
+  }
+  nav li a {
+    font-size: 1.5rem;
+  }
+  header {
+    padding-top: 4rem;
+    width: 100%;
+    margin: auto;
+  }
