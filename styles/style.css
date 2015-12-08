@@ -28,6 +28,7 @@ h1 {
   padding: 1rem;
   font-size: 3rem;
 }
+
 .fa-bars {
   background-color: white;
   color: black;
@@ -48,6 +49,7 @@ h2 {
 }
 p {
   font-size: 1.5rem;
+  
 }
 #about, #instructors, #policy, #affiliations {
   padding-top: 1rem;
@@ -57,10 +59,13 @@ p {
 #contact-page {
   padding-top: 1rem;
 }
+
 .bio {
   text-align: center;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+  font-family: sans-serif;
+  color: gray;
 }
 
 /* about page column styles */
@@ -74,10 +79,11 @@ p {
 /* instructor images sized to match smallest available photo */
   #instructors img {
     width: 250px;
-    padding: 2.5rem 0rem 1rem 0rem;
+    padding: 1rem 0rem 1rem 0rem;
     display: block;
     margin: auto;
-  }
+    border:1px solid black;
+}
 
 /* footer styles */
 footer {
