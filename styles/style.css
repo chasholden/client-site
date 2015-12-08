@@ -1,0 +1,173 @@
+/* mobile styles /* 
+
+/* give the body enough space to fit the menu icon */
+body {
+  padding-right: 3.5rem;
+  padding-left: 3rem; 
+}
+
+/* header styles */
+header {
+  background-color: white;
+  width: 85%;
+  margin: auto;
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 1.5rem;
+}
+header img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4rem;
+  padding: .5rem;
+}
+h1 {
+  float: left;
+  color: black;
+  padding: 1rem;
+  font-size: 3rem;
+}
+.fa-bars {
+  background-color: white;
+  color: black;
+  float: right;
+  padding: .5rem;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+/* body styles */
+h2 {
+  font-size: 2rem;
+}
+p {
+  font-size: 1.5rem;
+}
+#about, #instructors, #policy, #affiliations {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #d3d3d3;
+}
+#contact-page {
+  padding-top: 1rem;
+}
+.bio {
+  text-align: center;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+/* about page column styles */
+.col {
+  width: 100%;
+}
+.span_3_of_12 {
+  width: 100%; 
+}
+
+/* instructor images sized to match smallest available photo */
+  #instructors img {
+    width: 250px;
+    padding: 2.5rem 0rem 1rem 0rem;
+    display: block;
+    margin: auto;
+  }
+
+/* footer styles */
+footer {
+  clear: both;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+footer p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+#location {
+  padding-bottom: .5rem;
+}
+
+/* nav styles */
+nav {
+  clear: both;
+  background-color: white;
+}
+nav ul {
+  text-align: center;
+}
+nav li {
+  font-size: 2.5rem;
+  padding: 1rem; 0rem;
+  border-bottom: 1px black dotted;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+/* desktop styles */
+@media only screen and (min-width: 768px) {
+  
+  /*nav and header styles */
+  .fa-bars {
+    display:none;
+  }
+  header img {
+    position: static;
+    display: inline-block;
+    float: left;
+    width: 5rem;
+  }
+  header h1 {
+    width: 80%;
+  }
+  nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+    margin: auto;
+  }
+  nav li {
+    display: inline;
+    border: none;
+  }
+  nav li a {
+    font-size: 1.5rem;
+  }
+  header {
+    padding-top: 4rem;
+    width: 100%;
+    margin: auto;
+  }
+  
+  /* body styles */
+  .bio {
+    font-size: 1rem;
+    text-align: center;
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  
+  /* about page desktop columns */
+  .span_3_of_12 {
+    width: 23.8%;
+  }
+  .col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+  }
+  
+  /* instructor images sized to fit columns */
+  #instructors img {
+    width: 150px;
+    padding: .5rem;
+  }
+}
