@@ -1,10 +1,13 @@
 /* mobile styles /* 
 
 /* give the body enough space to fit the menu icon */
+
+
 body {
   padding-right: 3.5rem;
   padding-left: 3rem; 
-}
+  font: 100%/1.4 'Helvetica Neue', arial, helvetica, helve, sans-serif; 	
+ }
 
 /* header styles */
 header {
@@ -24,8 +27,8 @@ header img {
 }
 h1 {
   float: left;
-  color: black;
-  padding: 1rem;
+  color: limegreen;
+  padding: 1.5rem;
   font-size: 3rem;
 }
 
@@ -48,14 +51,35 @@ h2 {
   font-size: 2rem;
 }
 p {
-  font-size: 1.5rem;
+  font-size: 1rem;
   
 }
-#about, #instructors, #policy, #affiliations {
+
+#boilerplate {
+  padding: 1rem;
+  font-size: 1.3rem;
+  text-align: center;
+  color: green;
+  line-height: 150%;
+}
+
+#services {
+    text-align: left;
+}
+
+
+#about, #policy, #affiliations {
   padding-top: 1rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid #d3d3d3;
 }
+
+#instructors {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #d3d3d3;
+}
+
 #contact-page {
   padding-top: 1rem;
 }
@@ -65,7 +89,21 @@ p {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   font-family: sans-serif;
-  color: gray;
+  font-style: italic;
+}
+
+.bio h3 {
+  text-align: center;
+  padding: 1rem;
+  color: black;
+}
+
+#services h3 {
+  text-align: left;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  font-style: italic;
+  color: green;
 }
 
 /* about page column styles */
@@ -79,7 +117,7 @@ p {
 /* instructor images sized to match smallest available photo */
   #instructors img {
     width: 250px;
-    padding: 1rem 0rem 1rem 0rem;
+    padding: 1pix;
     display: block;
     margin: auto;
     border:1px solid black;
@@ -174,6 +212,6 @@ nav a {
   /* instructor images sized to fit columns */
   #instructors img {
     width: 150px;
-    padding: .5rem;
+    padding: .1rem;
   }
 }
