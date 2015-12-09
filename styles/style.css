@@ -10,14 +10,15 @@ body {
  }
 
 /* header styles */
+
 header {
   background-color: white;
   width: 85%;
   margin: auto;
   overflow: hidden;
   text-align: center;
-  padding-bottom: 1.5rem;
 }
+
 header img {
   position: absolute;
   top: 0;
@@ -25,98 +26,67 @@ header img {
   width: 4rem;
   padding: .5rem;
 }
+
 h1 {
   float: left;
-  color: limegreen;
+  color: black;
+  font-weight: 500;
   padding: 1.5rem;
-  font-size: 3rem;
+  font-size: 2.8rem;
+  letter-spacing: 1;
+  background-color: white;
 }
 
 .fa-bars {
-  background-color: white;
+  background-color: black;
   color: black;
   float: right;
   padding: .5rem;
   position: fixed;
   right: 0;
   top: 0;
+  background-color: white;
 }
+
 header a {
   text-decoration: none;
-  color: white;
+  color: black;
+  background-color: white;
 }
 
 /* body styles */
+
 h2 {
   font-size: 2rem;
 }
+
 p {
-  font-size: 1rem;
-  
+  font-size: .95rem;
 }
+
+/* unique section id styles for index.html page */
 
 #boilerplate {
   padding: 1rem;
-  padding-bottom: 3rem;
-  font-size: 1.3rem;
+  font-size: 1.15rem;
   text-align: center;
-  color: green;
-  line-height: 150%;
+  color: gray;
+  line-height: 1;
+  background-color: white;
+  font-weight: lighter;
+  letter-spacing: normal;
 }
 
 #services {
     text-align: left;
     padding-top: 2rem;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
     border-bottom: 1px solid #d3d3d3;
 }
 
-#about, #policy, #affiliations {
-  padding-top: 2rem;
-  padding-bottom: 3rem;
-  border-bottom: 1px solid #d3d3d3;
-}
 
-#instructors {
-  padding-top: 2rem;
-  padding-bottom: 3rem;
-  border-bottom: 1px solid #d3d3d3;
-}
-
-#facilities {
-   padding-top: 2rem;
-  padding-bottom: 2rem;
-  border-bottom: 1px solid #d3d3d3;
-}
-
-#facilities img {
-    width: 300px;
-    padding: 1px;
-    border:1px solid black;
-    display: block;
-    margin-left: auto;
-    margin-right:auto;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-  
-#contact-page {
-  padding-top: 1rem;
-}
-
-.bio {
-  text-align: center;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  font-family: sans-serif;
-  font-style: italic;
-}
-
-.bio h3 {
-  text-align: center;
-  padding: 1rem;
-  color: black;
+#services h2 {
+  padding-bottom: 1rem;
 }
 
 #services h3 {
@@ -133,6 +103,95 @@ p {
   color: darkgreen;
 }
 
+#section group {
+   border: 1px;
+}
+  
+#facilities {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+#facilities img {
+    width: 300px;
+    padding: 1px;
+    border:1px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#facilities h2 {}
+
+
+/* unique section id styles for about.html page */
+
+
+#about, #policy, #affiliations {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+#about h2 {
+padding-bottom: 1rem;
+}
+
+#instructors h2 {
+padding-bottom: 1rem;
+}
+
+#policy h2 {
+padding-bottom: 1rem;
+}
+
+#affiliations h2 {
+padding-bottom: 1rem;
+}
+
+#contact-page h2 {
+padding-bottom: 1rem;
+}
+
+#instructors {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.bio {
+  text-align: center;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+#instructors h4{
+  text-align: center;
+  padding: 1rem;
+  color: black;
+  text-transform: uppercase;
+  
+}
+
+#contact-page {
+  padding-top: 1rem;
+}
+
+/* index page column styles */
+
+.col {
+  width: 100%;
+}
+
+.span_1_of_3 {
+  width: 100%;
+}
+
 /* about page column styles */
 .col {
   width: 100%;
@@ -142,12 +201,15 @@ p {
 }
 
 /* instructor images sized to match smallest available photo */
+
   #instructors img {
     width: 250px;
     padding: 1px;
     display: block;
-    margin: auto;
     border:1px solid black;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* footer styles */
@@ -157,7 +219,7 @@ footer {
   padding-bottom: 2rem;
 }
 footer p {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-align: center;
 }
 #location {
