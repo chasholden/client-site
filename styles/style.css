@@ -79,7 +79,7 @@ p {
 #boilerplate h2 {
   font-size: 2.1rem;
   text-align: center;
-  color: green;
+  color: black;
   line-height: 1;
   background-color: white;
   font-weight: lighter;
@@ -110,10 +110,17 @@ p {
 
 #services h4 {
   color: black;
-  font-weight: 400;
+  font-weight: 500;
+  color: black;
+  background-color: gainsboro
 }
 
 #services h5 {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
 }
 
 #services p {
@@ -134,15 +141,15 @@ p {
     padding: 1px;
     border:1px solid black;
     display: block;
-    margin-lefbot: auto;
+    margin-left: auto;
     margin-right:auto;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
 #facilities h2 {
-font-weight: lighter;
-letter-spacing: .3rem;
+  font-weight: lighter;
+  letter-spacing: .3rem;
   padding-bottom: 1rem;
 }
 
@@ -200,7 +207,7 @@ font: 100%/1.4 'Helvetica Neue', arial, helvetica, helve, sans-serif;
 }
 
   
-}
+
 
 #contact-page {
   padding-top: 1rem;
@@ -238,11 +245,14 @@ footer {
   clear: both;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  background-color: lightgrey;
+  background-color: gainsboro;
 }
 footer p {
   font-size: 1.3rem;
   text-align: center;
+  font-weight: 200;
+  font-weight: 200;
+  
 }
 #location {
   padding-bottom: .5rem;
@@ -254,14 +264,17 @@ nav {
   clear: both;
   background-color: white;
 }
+
 nav ul {
   text-align: center;
 }
+
 nav li {
   font-size: 2.5rem;
-  padding: 1rem; 0rem;
-  border-bottom: 1px black dotted;
+  padding: 1rem;
+  border-bottom: .5px gray solid;
 }
+
 nav a {
   text-decoration: none;
   color: black;
