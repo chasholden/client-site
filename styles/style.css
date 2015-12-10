@@ -33,7 +33,7 @@ h1 {
   font-weight: 500;
   padding: 1.5rem;
   font-size: 2.8rem;
-  letter-spacing: 1;
+  letter-spacing: .1rem;
   background-color: white;
 }
 
@@ -58,6 +58,8 @@ header a {
 
 h2 {
   font-size: 2rem;
+  font-weight: lighter;
+letter-spacing: .25rem;
 }
 
 p {
@@ -68,20 +70,28 @@ p {
 
 #boilerplate {
   padding: 1rem;
-  font-size: 1.15rem;
   text-align: center;
-  color: gray;
+  background-color: white;
+  padding-bottom: 2rem;
+}
+
+
+#boilerplate h2 {
+  font-size: 2.1rem;
+  text-align: center;
+  color: green;
   line-height: 1;
   background-color: white;
   font-weight: lighter;
-  letter-spacing: normal;
+  letter-spacing: .1rem;
 }
+
 
 #services {
     text-align: left;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    border-bottom: 1px solid #d3d3d3;
+    border-top: 1px solid #d3d3d3;
 }
 
 
@@ -91,26 +101,32 @@ p {
 
 #services h3 {
   text-align: left;
-  padding-top: 1.2rem;
-  padding-bottom: 1.2rem;
   font-style: italic;
-  color: forestgreen;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 200;
+  padding-top: 2rem;
 }
 
 #services h4 {
-  padding-top: 1.1rem;
-  padding-bottom: 1rem;
-  color: darkgreen;
+  color: black;
+  font-weight: 400;
 }
 
-#section group {
-   border: 1px;
+#services h5 {
 }
-  
+
+#services p {
+  font-style: italic;
+  font-size: .85rem;
+}
+
+
+
 #facilities {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  border-bottom: 1px solid #d3d3d3;
+  border-top: 1px solid #d3d3d3;
 }
 
 #facilities img {
@@ -118,22 +134,26 @@ p {
     padding: 1px;
     border:1px solid black;
     display: block;
-    margin-left: auto;
+    margin-lefbot: auto;
     margin-right:auto;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
-#facilities h2 {}
+#facilities h2 {
+font-weight: lighter;
+letter-spacing: .3rem;
+  padding-bottom: 1rem;
+}
 
 
 /* unique section id styles for about.html page */
 
 
-#about, #policy, #affiliations {
+#about, #policy, #instructors, #affiliations, #contact-page {
   padding-top: 2rem;
   padding-bottom: 3rem;
-  border-bottom: 1px solid #d3d3d3;
+  border-top: 1px solid #d3d3d3;
 }
 
 #about h2 {
@@ -158,38 +178,32 @@ padding-bottom: 1rem;
 
 #instructors {
   padding-top: 2rem;
-  padding-bottom: 3rem;
+  padding-bottom: 1rem;
   border-bottom: 1px solid #d3d3d3;
-}
-
-.bio {
-  text-align: center;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  font-family: sans-serif;
-  font-style: italic;
 }
 
 #instructors h4{
   text-align: center;
-  padding: 1rem;
+  padding: .5rem;
   color: black;
   text-transform: uppercase;
+  font-weight: 700;
+font: 100%/1.4 'Helvetica Neue', arial, helvetica, helve, sans-serif; 	
+ }
+
+.bio {
+  text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-family: helvetica, sans-serif;
+  font-style: italic;
+}
+
   
 }
 
 #contact-page {
   padding-top: 1rem;
-}
-
-/* index page column styles */
-
-.col {
-  width: 100%;
-}
-
-.span_1_of_3 {
-  width: 100%;
 }
 
 /* about page column styles */
@@ -200,6 +214,14 @@ padding-bottom: 1rem;
   width: 100%; 
 }
 
+/* index page column styles */
+.col {
+  width: 100%;
+}
+.span_4_of_12 {
+  width: 100%; 
+}
+
 /* instructor images sized to match smallest available photo */
 
   #instructors img {
@@ -207,7 +229,6 @@ padding-bottom: 1rem;
     padding: 1px;
     display: block;
     border:1px solid black;
-    margin-bottom: 2rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -217,6 +238,7 @@ footer {
   clear: both;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  background-color: lightgrey;
 }
 footer p {
   font-size: 1.3rem;
@@ -227,6 +249,7 @@ footer p {
 }
 
 /* nav styles */
+
 nav {
   clear: both;
   background-color: white;
@@ -264,7 +287,6 @@ nav a {
     position: absolute;
     top: 0;
     right: 0;
-    padding: 1rem;
     margin: auto;
   }
   nav li {
@@ -298,9 +320,15 @@ nav a {
 	margin: 1% 0 1% 1.6%;
   }
   
+  /* index page desktop columns */
+  
+  .span_4_of_12 {
+    width: 32.26%;
+  }
+  
   /* instructor images sized to fit columns */
   #instructors img {
     width: 150px;
-    padding: .1rem;
+    padding: .15rem;
   }
 }
